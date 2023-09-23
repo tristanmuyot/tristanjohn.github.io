@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: linear-gradient(180deg, #5a007a 0%, rgb(41, 41, 41) 100%);
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+    .logo {
+      width: 41.18vw;
+      height: 13.33vw;
+    }
+    .earth {
+      width: 67.15vw;
+      height: 47.7vw;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .logonav {
+      width: 50%;
+      padding-top: 141px;
+      padding-left: 79px;
+    }
+    .earth-container {
+      width: 50%;
+    }
+    .h-gap {
+      gap: 97px;
+    }
+    nav {
+      margin-top: 47.5px;
+    }
+    .place {
+      text-shadow: -2px 6px 4px rgba(0, 0, 0, 0.64);
+      font-size: 64px;
+      max-width: 745px;
+      font-weight: 700;
+      margin-top: 212px;
+    }
+    main {
+      padding-left: 79px;
+      padding-right: 79px;
+    }
+    .awake {
+      margin-top: 181px;
+      text-align: right;
+      text-shadow: -2px 6px 4px rgba(0, 0, 0, 0.64);
+      font-size: 48px;
+      font-weight: 700;
+      display: grid;
+    }
+    .awaketext {
+      justify-self: flex-end;
+      max-width: 760px;
+    }
+    .help {
+      text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.64);
+      font-size: 20px;
+      line-height: normal;
+      margin-top: 150px;
+    }
+    .nav2 a {
+      text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.64);
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+    }
+    .nav2 {
+      column-gap: 2rem;
+      row-gap: 10px;
+    }
+    .create {
+      text-align: center;
+      margin-top: 95px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        -9px 9px 4px rgba(0, 0, 0, 0.58);
+      font-size: 96px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -3.84px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .services a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .op {
+      background: transparent;
+      border: none;
+      margin-top: 86px;
+      width: 365px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .op img {
+      width: 100%;
+    }
+    .dvbtn {
+      display: flex;
+      justify-content: center;
+    }
+    .btntext {
+      position: absolute;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 8px 4px rgba(0, 0, 0, 0.56);
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .planet img {
+      width: 100%;
+    }
+    .lastlink {
+      font-size: 65px;
+      font-weight: 600;
+    }
+    .lastlink a {
+      color: white;
+      text-decoration: none;
+    }
+    .our {
+      color: white;
+      font-size: 36px;
+      font-weight: 600;
+    }
+  </style>
+  <body>
+    <!-- header -->
+    <header class="d-flex flex-row h-gap overflow-hidden">
+      <div class="logonav">
+        <img class="logo" src="./eutopia.png" alt="" />
+        <nav class="d-flex flex-row justify-content-between">
+          <div>
+            <a href="">HOME</a>
+          </div>
+          <div>
+            <a href="">PRODUCTS</a>
+          </div>
+          <div>
+            <a href="">ABOUT US</a>
+          </div>
+          <div>
+            <a href="">CONTACT US</a>
+          </div>
+        </nav>
+      </div>
+      <!-- earth pic -->
+      <div class="earth-container">
+        <img class="earth" src="./earth.png" alt="" />
+      </div>
+    </header>
+    <!-- end of header -->
+    <main>
+      <h1 class="text-white place overflow-hidden">
+        A PLACE OF IDEAL PERFECTION
+      </h1>
+      <div class="awake text-white">
+        <h1 class="awaketext">
+          AWAKENING THE POTENTIAL OF YOUR BUSINESS WITH US.
+        </h1>
+      </div>
+
+      <div class="help text-white">LETS HELP YOU DO</div>
+
+      <div class="nav2 d-flex flex-row flex-wrap">
+        <div><a href="">UX/UI DESIGN</a></div>
+        <div><a href="">WEB/ APP DEVELOPMENT </a></div>
+        <div><a href="">BRANDING </a></div>
+        <div><a href="">DIGITAL MARKETING</a></div>
+        <div><a href="">SOCIAL MEDA MANAGEMENT</a></div>
+        <div><a href="">ILLUSTRATION </a></div>
+        <div><a href="">T-SHIRT DESIGN</a></div>
+      </div>
+      <div class="create">
+        <p>CREATE YOUR BRAND WITH US</p>
+      </div>
+      <!-- lower part -->
+      <div>
+        <div class="services d-flex flex-row justify-content-between">
+          <a href="">SERVICES</a>
+          <a href="">PACKAGES</a>
+          <a href="">PROMO</a>
+        </div>
+      </div>
+      <div class="dvbtn">
+        <button class="op">
+          <img src="./button.png" alt="" /><span class="btntext">EXPLORE</span>
+        </button>
+      </div>
+      <div class="planet">
+        <img src="./planet eu.png" alt="" />
+      </div>
+      <!-- lastpart -->
+      <div class="our">OUR SERVICES</div>
+      <div class="lastlink d-flex flex-column">
+        <a href="">UX/UI DESIGN</a>
+        <a href="">WEB/ APP DEVELOPMENT</a>
+        <a href="">BRANDING</a>
+        <a href="">ILLUSTRATION</a>
+        <a href="">DIGITAL MARKETING</a>
+        <a href="">SOCIAL MEDIA MANAGEMENT</a>
+        <a href="">T-SHIRT DESIGN</a>
+      </div>
+    </main>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
